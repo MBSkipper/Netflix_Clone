@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
-import netflixLogo from '../assets/netflix.png'
+import netflixLogo from '../assets/logocropped.png'
 
 function NavbarComponent() {
   return (
@@ -13,7 +13,7 @@ function NavbarComponent() {
         <Navbar.Brand href="#home">
           <img
             src={netflixLogo}
-            height="100"
+            height="30"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
