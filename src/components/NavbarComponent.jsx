@@ -25,13 +25,14 @@ function NavbarComponent() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Form.Select>
+            <Form.Select className='me-2'>
               <option value="English">English</option>
               <option value="French">French</option>
               <option value="Spanish">Spanish</option>
             </Form.Select>
 
-            <Button variant="danger">Sign In</Button>
+            <Button variant="danger"
+            style= {{width: '9em'}}>Sign In</Button>
 
 
           </Nav>
