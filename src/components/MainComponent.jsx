@@ -7,12 +7,18 @@ function MainComponent() {
   return (
     <Container className='text-center mt-5'>
         <h1 className='display-4'>Unlimited movies, shows and more</h1>
-        <p className='lead'>Starts at £18.99. Cancel at any time.</p>
-        <p className='lead'>Ready to watch? Enter your email to create or restart your membership.</p>
+        <p className='lead mt-5'>Starts at £18.99. Cancel at any time.</p>
+        <p className='lead mb-4'>Ready to watch? Enter your email to create or restart your membership.</p>
+        <br />
+        
 
         <GetStarted />
 
-        <h2 className='display-6'>Trending now</h2>
+        <br />
+        <br />
+
+        <h2 className='display-6 my-5
+        ' >Trending now</h2>
 
         <div className='d-flex gap-4 my-5
         '>
@@ -37,7 +43,8 @@ function MainComponent() {
             ranking={5}/>
 
             <TrendingNowCard 
-            image='https://th.bing.com/th/id/OIP.8YRmp6afItZ4OIrcnj5O9gHaLH?w=189&h=283&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3'
+            image='https://cdn.shopify.com/s/files/1/0057/3728/3618/files/homealone.124915_500x749.jpg?v=1762475830'
+            //'https://th.bing.com/th/id/OIP.8YRmp6afItZ4OIrcnj5O9gHaLH?w=189&h=283&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3'
             ranking={6}/>
 
             <TrendingNowCard 
@@ -53,15 +60,12 @@ function MainComponent() {
             ranking={9}/>
 
             <TrendingNowCard 
-            image='https://th.bing.com/th/id/OIP.2eQxxUZmW7dTkq1WtrjQ-AHaLH?w=189&h=283&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3'
+            image='https://th.bing.com/th/id/OIP.8YRmp6afItZ4OIrcnj5O9gHaLH?w=189&h=283&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3'
             ranking={10}/>
 
         </div>
 
         <GetStarted />
-
-
-
 
     </Container>
   )
