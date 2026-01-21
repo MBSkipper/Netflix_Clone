@@ -14,7 +14,8 @@ function MainComponent() {
 
         <h2 className='display-6'>Trending now</h2>
 
-        <div className='d-flex gap-4 my-5'>
+        <div className='d-flex gap-4 my-5
+        '>
             <TrendingNowCard 
             image='https://th.bing.com/th/id/OIP.2eQxxUZmW7dTkq1WtrjQ-AHaLH?w=189&h=283&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3'
             ranking={1}/>
@@ -44,7 +45,7 @@ function MainComponent() {
             ranking={7}/>
 
             <TrendingNowCard 
-            image='https://th.bing.com/th?id=OIF.S1iv2OYrG%2fuiMcxkFa5q%2fw&w=189&h=284&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3'
+            image='https://th.bing.com/th/id/OPEC.0hvvHaow0vmDig474C474?o=5&pid=21.1&w=193&h=212&c=7&dpr=2&o=7&rm=3'
             ranking={8}/>
 
             <TrendingNowCard 
